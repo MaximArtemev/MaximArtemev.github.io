@@ -71,7 +71,9 @@ content:
 
           [![Example 2 - landscape (clickable):]({images/preview_2.png})]({https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1/})
 
-          [![Alt text for broken image link](images/preview1.png)](https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2/view?usp=sharing)
+          [![Alt text for broken image link](images/preview_1.png)](https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2/view?usp=sharing)
+
+          [![Alt text for broken image link](images/preview_2.png)](https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1/view?usp=sharing)
 
 
 
