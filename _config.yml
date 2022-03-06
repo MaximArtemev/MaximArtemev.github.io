@@ -44,7 +44,9 @@ content:
         
           #### Examples:
           ![](images/haircolor/image1.jpg)
+
           ![](images/haircolor/image2.jpg)
+          
           ![](images/haircolor/image3.jpg)
       - title: Hair Transfer
         layout: left
@@ -84,7 +86,9 @@ content:
         layout: left
         border: weak
         description: | # this will include new lines to allow paragraphs
-          [Ring Imaging Cherenkov (RICH) detector](https://lhcb-public.web.cern.ch/en/detector/RICH-en.html) is one of the steps for the Large Hadron Collider beauty experiment. Basically, we want to pass a particle through it and calculate probablities of a particle beeing a certain type. While the classification model is very simple, it requires a lot of data to train it. The goal of our team was to produce a good GAN model to generate a lot of data to simulate a specific LHCb experiment.
+          [Ring Imaging Cherenkov (RICH) detector](https://lhcb-public.web.cern.ch/en/detector/RICH-en.html) is one of the steps for the Large Hadron Collider beauty experiment. Basically, we want to pass a particle through it and calculate probablities of a particle beeing a certain type. While the classification model is very simple, it requires a lot of data to train it. 
+          
+          To solve this, our team produced a good conditional [Cramer GAN](https://arxiv.org/abs/1705.10743) to generate a lot of data to simulate specific LHCb experiments. This allowed for a fast data simulation (around 10000 events per second), especially compared with Monte-Carlo methods (2-5 events per second), previously used by physicists.
 
       - title: Deep Underground Neutrino Experiment (Geneva)
         layout: left
@@ -92,7 +96,7 @@ content:
         description: |
           This project is a collaboration with [FermiLab](https://www.fnal.gov/). It aimed to study neutrino interactions with matter. My goal was to build a stable pre-processing pipeline for sparse data and build low-latency models for online event filtering. There is a good [presentation](https://indico.cern.ch/event/773049/contributions/3474765/attachments/1937737/3211868/GraphNNDune.pdf) at [CHEP 2019](https://indico.cern.ch/event/773049/contributions/3474765/) that well summarizes the whole project. 
 
-          I've build a graph neural network to denoise and sparsify events as a part of our engineering pipeline. As far as I know, the proposed solution is still working inside current DUNE experiments.
+          My contribution to this project is a graph neural network that denoise and sparsify events as a part of the engineering pipeline. As far as I know, the proposed solution is still used inside current DUNE experiments.
 
   - title: Experience
     layout: list # Type of content section (list/text)
