@@ -10,39 +10,9 @@ name: Maxim Artemev
 title: Deep Learning Engineer and/or Researcher
 email: mrartemev.me@gmail.com
 website: https://maximartemev.github.io/
-
-# Dark Mode (true/false/never)
 darkmode: never
-
-# Social links
-# twitter_username: facespics
 github_username:  MaximArtemev
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 linkedin_username: maxim-artemev
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 about_title: About Me
@@ -53,13 +23,11 @@ about_content: | # this will include new lines to allow paragraphs
   In all of my projects I'm using <mark>Python</mark> and <mark>PyTorch</mark>.
 
 content:
-  - title: Projects @ PicsArt # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects @ PicsArt
+    layout: list
     caption: May 2020 - Present (project work)
     link: https://picsart.com/ru
     sub_title: Computer Vision Researcher
-    border: weak
-
     content:
       - title: Hair Recoloring
         layout: left
@@ -74,15 +42,14 @@ content:
 
           Just kidding, we continued to increase quality and latency of the model. The precice calculation of the user's hair mask was taken too much time, so we created a novel approach for our GAN to generate masks itself. This way we saved approximately 0.1-0.2 ms from inference time making it possible to use hair recoloring on video sequences.
         
-          ##### Examples:
+          #### Examples:
           ![](images/haircolor/image1.jpg)
           ![](images/haircolor/image2.jpg)
           ![](images/haircolor/image3.jpg)
       - title: Hair Transfer
         layout: left
-        # link: NDA
-        # link_text: Project Website
-        description: | # this will include new lines to allow paragraphs
+        border: weak
+        description: |
           Another project for our beautification team. I mostly supervised it, but I think I should still state it here. 
           
           The goal was to create an algorithm that could photorealistically insert the hair from the reference image to the source image. The most interesting steps in the project pipeline are:
@@ -90,7 +57,17 @@ content:
           * Facial segmentation and hair alpha mask calculation
           * Statistical recoloring, alpha-blending
           * Inpainting
+      - title: Video Enhancement
+        layout: left
+        border: weak
+        description: |
+          Since PicsArt was shifting to be become a video platform there were a lot of video-related projects. I worked on one of it, namely, Video Auto Adjustment or Video Enhancement task. We wanted to have a very small but capable model to auto-adjust brightness, contrast, sharpness and other adjustment handles on any given video to make it "better". 
 
+          The solution is simple: a small fully-convolutional model that performs a regression over the adjust parameters based on a LAB video frames. Unfortunately, this solution is only available for fully annotated datasets. For this reason the logical extention of the project is to build a model that could learn auto adjustment in an unsupervised fashion.
+          
+          #### Example:
+
+          [![A simple Example:]({})]({https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2/view?usp=sharing})
 
 
   - title: Experience # Title for the section
