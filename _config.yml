@@ -76,10 +76,9 @@ content:
           ![](images/haircolor/image2.jpg)
           ![](images/haircolor/image3.jpg)
     
-    content:
       - layout: left
         title: Hair Transfer
-        link: NDA
+        # link: NDA
         # link_text: Project Website
         description: | # this will include new lines to allow paragraphs
           Another project for our beautification team. I mostly supervised it, but I think I should still state it here. 
