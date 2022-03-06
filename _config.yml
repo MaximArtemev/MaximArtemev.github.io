@@ -67,7 +67,14 @@ content:
           
           #### Example:
 
-          [![Example with people (clickable):]({images/preview_1.png})]({https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2})
+          [![Example 1 - humans (clickable):]({images/preview_1.png})]({https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2/})
+
+          [![Example 2 - landscape (clickable):]({images/preview_2.png})]({https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1/})
+
+          <iframe width="420" height="315" src="https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2" frameborder="0" allowfullscreen></iframe>
+          
+          <iframe width="420" height="315" src="https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1" frameborder="0" allowfullscreen></iframe>
+              
 
 
   - title: Experience # Title for the section
