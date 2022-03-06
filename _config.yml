@@ -57,8 +57,8 @@ content:
     layout: list # Type of content section (list/text)
 
     content:
-      - layout: left-top
-        title: Hair Recoloring
+      - title: Hair Recoloring
+        layout: text
         # link: NDA
         # link_text: Project Website
         description: | # this will include new lines to allow paragraphs
@@ -76,8 +76,9 @@ content:
           ![](images/haircolor/image2.jpg)
           ![](images/haircolor/image3.jpg)
     
-      - layout: left
-        title: Hair Transfer
+    content:
+      - title: Hair Transfer
+        layout: text
         # link: NDA
         # link_text: Project Website
         description: | # this will include new lines to allow paragraphs
