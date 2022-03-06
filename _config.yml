@@ -71,9 +71,7 @@ content:
 
           [![Here should be a video link](images/preview_2.png)](https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1/view?usp=sharing)
 
-
-content:
-  - title: Lambda Laboratory
+  - title: Projects @ CERN, FermiLab
     layout: list
     caption: August 2019 - August 2020
     link: https://cs.hse.ru/en/lambda/
