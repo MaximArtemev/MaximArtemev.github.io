@@ -65,19 +65,38 @@ content:
 
           The solution is simple: a small fully-convolutional model that performs a regression over the adjust parameters based on a LAB video frames. Unfortunately, this solution is only available for fully annotated datasets. For this reason the logical extention of the project is to build a model that could learn auto adjustment in an unsupervised fashion.
           
-          #### Example:
+          #### Examples (clickable):
 
-          [![Example 1 - humans (clickable):]({images/preview_1.png})]({https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2/})
+          [![Here should be a video link](images/preview_1.png)](https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2/view?usp=sharing)
 
-          [![Example 2 - landscape (clickable):]({images/preview_2.png})]({https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1/})
-
-          [![Alt text for broken image link](images/preview_1.png)](https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2/view?usp=sharing)
-
-          [![Alt text for broken image link](images/preview_2.png)](https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1/view?usp=sharing)
+          [![Here should be a video link](images/preview_2.png)](https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1/view?usp=sharing)
 
 
+content:
+  - title: Lambda Laboratory
+    layout: list
+    caption: August 2019 - August 2020
+    link: https://cs.hse.ru/en/lambda/
+    sub_title: Deep Learning Researcher
+    description: | # this will include new lines to allow paragraphs
+      Before joining PicsArt I worked at the Lambda laboratory. My main area of focus were generative models and their application to the high energy physics. During my work there I managed to finish one big project in the collaboration with [Large Hadron Collider beauty experiment](https://home.cern/science/experiments/lhcb) and published a [paper about the solution](https://arxiv.org/abs/1905.11825)
 
-  - title: Experience # Title for the section
+    content:
+      - title: Ring Imaging Cherenkov detector
+        layout: left
+        border: weak
+        description: | # this will include new lines to allow paragraphs
+          [Ring Imaging Cherenkov (RICH) detector](https://lhcb-public.web.cern.ch/en/detector/RICH-en.html) is one of the steps for the Large Hadron Collider beauty experiment. Basically, we want to pass a particle through it and calculate probablities of a particle beeing a certain type. While the classification model is very simple, it requires a lot of data to train it. The goal of our team was to produce a good GAN model to generate a lot of data to simulate a specific LHCb experiment.
+
+      - title: Deep Underground Neutrino Experiment (Geneva)
+        layout: left
+        border: weak
+        description: |
+          This project is a collaboration with [FermiLab](https://www.fnal.gov/). It aimed to study neutrino interactions with matter. My goal was to build a stable pre-processing pipeline for sparse data and build low-latency models for online event filtering. There is a good [presentation](https://indico.cern.ch/event/773049/contributions/3474765/attachments/1937737/3211868/GraphNNDune.pdf) at [CHEP 2019](https://indico.cern.ch/event/773049/contributions/3474765/) that well summarizes the whole project. 
+
+          I've build a graph neural network to denoise and sparsify events as a part of our engineering pipeline. As far as I know, the proposed solution is still working inside current DUNE experiments.
+
+  - title: Experience
     layout: list # Type of content section (list/text)
     content:
       - layout: left
