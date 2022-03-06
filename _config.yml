@@ -47,7 +47,6 @@ linkedin_username: maxim-artemev
 # About Section
 about_title: About Me
 about_profile_image: images/profile1.png
-about_profile_image: images/profile2.png
 about_content: | # this will include new lines to allow paragraphs
   Hi! My name's Max and I'm a deep learning engineer and/or researcher in the field of generative models and/or computer vision. My area of expertise is image-to-image GAN-based models, modern normalizing flows and visual transformers for various computer vision tasks.
 
@@ -58,7 +57,7 @@ content:
     layout: list # Type of content section (list/text)
 
     content:
-      - layout: left
+      - layout: left-top
         title: Hair Recoloring
         # link: NDA
         # link_text: Project Website
@@ -72,10 +71,12 @@ content:
 
           Just kidding, we continued to increase quality and latency of the model. The precice calculation of the user's hair mask was taken too much time, so we created a novel approach for our GAN to generate masks itself. This way we saved approximately 0.1-0.2 ms from inference time making it possible to use hair recoloring on video sequences.
         
-          #### Examples:
+          ##### Examples:
           ![](images/haircolor/image1.jpg)
           ![](images/haircolor/image2.jpg)
           ![](images/haircolor/image3.jpg)
+    
+    content:
       - layout: left
         title: Hair Transfer
         link: NDA
@@ -83,14 +84,12 @@ content:
         description: | # this will include new lines to allow paragraphs
           Another project for our beautification team. I mostly supervised it, but I think I should still state it here. 
           
-          The goal was to create an algorithm that could photorealistically insert the hair from the reference image to the source image 
+          The goal was to create an algorithm that could photorealistically insert the hair from the reference image to the source image. The most interesting steps in the project pipeline are:
+          * Facial keypoint detection and face alignment
+          * Facial segmentation and hair alpha mask calculation
+          * Statistical recoloring, alpha-blending
+          * Inpainting
 
-          * Starting from long and productive data collection and annotation, data filtration, bias (gender, race, hair color, hair type) elimination, and, finally, research
-          * I had a relatively big and heavy [UNet](https://arxiv.org/abs/1505.04597)-like generator model in a [StarGAN](https://arxiv.org/abs/1912.01865)-like framework.
-          * Next steps were distillation (hard) and quantization (easy) which deserves a separate inclusion to this page. At this point I had a small team of junior researchers of my own. We tried multiple approaches to GAN distillation ([1](https://ojs.aaai.org/index.php/AAAI/article/view/5765), [2](https://arxiv.org/pdf/1902.00159.pdf), [3](https://arxiv.org/abs/2103.03467), [4](https://www.semanticscholar.org/paper/KDGAN%3A-Knowledge-Distillation-with-Generative-Wang-Zhang/2a4f50cca273813da26ef25e5bda7d01b5e0dde6)) and decided to develop our own. As for the quantization, we used a simple static quantization from [Pytorch-beta](https://pytorch.org/docs/stable/quantization.html)
-          * Finally, we packed everything in <mark>ONNX</mark> and <mark>MNN</mark> models and called it a day.
-
-          Just kidding, we continued to increase quality and latency of the model. The precice calculation of the user's hair mask was taken too much time, so we created a novel approach for our GAN to generate masks itself. This way we saved approximately 0.1-0.2 ms from inference time making it possible to use hair recoloring on video sequences.
 
 
   - title: Experience # Title for the section
