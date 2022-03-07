@@ -58,7 +58,7 @@ content:
         layout: left
         border: weak
         description: | # this will include new lines to allow paragraphs
-          As a part of the beautification team, I single-handedly worked on a hair recoloring tool. My goal was to deliver a **fast** (less than half a second) and **lightweight** (less than 4Mb) mobile application for photo-realistic hair recoloring. My research consisted of a number of important steps: 
+          As a part of the beautification team, I single-handedly worked on a hair recoloring tool. My goal was to deliver a *fast* (less than half a second) and *lightweight* (less than 4Mb) mobile application for photo-realistic hair recoloring. My research consisted of a number of steps: 
 
           * Data collection and annotation, data filtration, bias (gender, race, hair color, hair type) elimination.
           * Initial model research and training: The initial solution was relatively big and heavy; [UNet](https://arxiv.org/abs/1505.04597)-like generator model in a [StarGAN](https://arxiv.org/abs/1912.01865)-like framework.
