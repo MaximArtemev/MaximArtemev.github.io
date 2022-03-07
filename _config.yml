@@ -9,8 +9,8 @@ version: 2
 name: Maxim Artemev
 title: Deep Learning Engineer and/or Researcher
 email: mrartemev.me@gmail.com
-website: https://maximartemev.github.io/
-website_title: This page
+website: shorturl.at/epBR3
+website_title: CV
 darkmode: never
 github_username:  MaximArtemev
 linkedin_username: maxim-artemev
@@ -23,15 +23,31 @@ about_content: | # this will include new lines to allow paragraphs
 
   Currently I'm working at ByteDance on a TikTok de-duplication algorithm. I'm using state-of-the-art Visual Transformers to increase quality of the video embeddings to bring overall improvement to the whole platform.
 
-  At the same time, I'm continuing doing some project work at PicsArt and supervising a team of junior researchers too. At PicsArt I worked on an image-to-image applications, mostly hair recoloring and hair transfer. Now I'm wrapping up all inner research from there and submitting it to a various conferences together with my small research team. 
+  At the same time, I'm continuing doing project work at PicsArt and supervising a team of junior researchers too. Previously, I worked on an image-to-image tasks (hair recoloring and hair transfer). Now, together with my research team, I'm submitting our inner research to a various conferences to spred our methods and ideas.
 
-  Before joining PicsArt I worked at the Lambda laboratory. My main area of focus were generative models and their application to the high energy physics. During my work there I managed to finish one big project in the collaboration with [Large Hadron Collider beauty experiment](https://home.cern/science/experiments/lhcb) and published a [paper about the solution](https://arxiv.org/abs/1905.11825)
+  Before joining PicsArt I worked at the Lambda laboratory. My main area of focus were generative models and their application to high energy physics. My work there were focused on the collaboration with [Large Hadron Collider beauty experiment](https://home.cern/science/experiments/lhcb) on [fast particle simulation with GANs](https://arxiv.org/abs/1905.11825).
   
-  If interested, you can find my [CV here](https://drive.google.com/file/d/1ORIEKsooJPeOLmrUxMKm92NyIrLf1d3u/view?usp=sharing)
+  If interested, you can find my [CV](https://drive.google.com/file/d/1ORIEKsooJPeOLmrUxMKm92NyIrLf1d3u/view?usp=sharing) here.
 
   In all my projects I'm using <mark>Python</mark> and <mark>PyTorch</mark>.
 
 content:
+  - title: Projects @ ByteDance
+    layout: list
+    caption: October 2021 - Present
+    link: https://www.bytedance.com/en/
+    sub_title: Computer Vision Engineer
+    content:
+      - title: TikTok Deduplication (Singapore)
+        layout: left
+        border: weak
+        description: | 
+          As a part of the deduplication team located in Singapore my goal is to improve quality of the TikTok duplicates recognition algorithm. Currently, I'm working in two different directions: engineering and research.
+          
+          From engineering side, I'm designing a new architecture for the OCR-based video deduplication. I'm setting up monitorings, building processing services jointly with other engineers and writing python code to wrap already existing OCR models.
+          
+          From the research side, I'm experimenting with a novel video embeddings using [Visual Transformer](https://arxiv.org/abs/2010.11929) and [Masked AutoEncoders](https://arxiv.org/abs/2111.06377). My aim is to build a scalable and fast temporal video embeddings that can utilize full power of ViTs. One of the possible applications for such embeddings is deduplication, but in general it could be used in multiple different services.
+
   - title: Projects @ PicsArt
     layout: list
     caption: May 2020 - Present (project work)
@@ -84,24 +100,7 @@ content:
 
           [![Here should be a video link](images/preview_2.png)](https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1/view?usp=sharing)
 
-  - title: Projects @ ByteDance
-    layout: list
-    caption: October 2021 - Present
-    link: https://www.bytedance.com/en/
-    sub_title: Computer Vision Engineer
-    content:
-      - title: TikTok Deduplication (Singapore)
-        layout: left
-        border: weak
-        description: | 
-          As a part of the deduplication team located in Singapore my goal is to improve quality of the TikTok duplicates recognition algorithm. Currently, I'm working in two different directions: engineering and research.
-          
-          From engineering side, I'm designing a new architecture for the OCR-based video deduplication. I'm setting up monitorings, building processing services jointly with other engineers and writing python code to wrap already existing OCR models.
-          
-          From the research side, I'm experimenting with a novel video embeddings using [Visual Transformer](https://arxiv.org/abs/2010.11929) and [Masked AutoEncoders](https://arxiv.org/abs/2111.06377). My aim is to build a scalable and fast temporal video embeddings that can utilize full power of ViTs. One of the possible applications for such embeddings is deduplication, but in general it could be used in multiple different services.
-
-
-  - title: Projects @ CERN, FermiLab
+  - title: Projects @ CERN
     layout: list
     caption: August 2019 - August 2020
     link: https://cs.hse.ru/en/lambda/
