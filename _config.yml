@@ -11,6 +11,9 @@ title: Deep Learning Engineer and/or Researcher
 email: mrartemev.me@gmail.com
 website: shorturl.at/epBR3
 website_title: CV
+phone: @meretemev
+phone_title: telegram
+
 darkmode: never
 github_username:  MaximArtemev
 linkedin_username: maxim-artemev
@@ -30,6 +33,8 @@ about_content: | # this will include new lines to allow paragraphs
   If interested, you can find my [CV](https://drive.google.com/file/d/1ORIEKsooJPeOLmrUxMKm92NyIrLf1d3u/view?usp=sharing) here.
 
   In all my projects I'm using <mark>Python</mark> and <mark>PyTorch</mark>.
+
+  If you want to contact me directly, please use my mail: *mrartemev.me@gmail.com* or my telegram: *@ meretemev*
 
 content:
   - title: Projects @ ByteDance
