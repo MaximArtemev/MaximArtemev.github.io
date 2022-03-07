@@ -42,11 +42,11 @@ content:
         layout: left
         border: weak
         description: | 
-          As a part of the deduplication team located in Singapore, my goal is to improve the quality of the TikTok duplicates recognition algorithm. Currently, I'm working in two different directions: engineering and research.
+          As a part of the deduplication team located in Singapore, my goal is to improve the quality of the TikTok duplicates recognition algorithm. Currently, I'm working jointly with two teams: engineering and research.
           
-          I'm designing a new architecture for the OCR-based video deduplication from the engineering side. I'm setting up monitoring, building processing services jointly with other engineers, and writing python code to wrap existing OCR models.
+          I'm designing a new architecture for the OCR-based video deduplication together with the engineering team. I'm setting up monitoring, building processing services jointly with other engineers, and writing python code to wrap existing OCR models.
           
-          From the research side, I'm experimenting with a novel video embedding using [Visual Transformer](https://arxiv.org/abs/2010.11929) and [Masked AutoEncoders](https://arxiv.org/abs/2111.06377). My aim is to build a scalable and fast temporal video embedding that can utilize the full power of ViTs. One of the possible applications for such embeddings is deduplication. Still, in general, it could be used in multiple different services.
+          With the research team, I'm experimenting with a novel video embedding using [Visual Transformer](https://arxiv.org/abs/2010.11929) and [Masked AutoEncoders](https://arxiv.org/abs/2111.06377). My aim is to build a scalable and fast temporal video embedding that can utilize the full power of ViTs. One of the possible applications for such embeddings is deduplication. Still, in general, it could be used in multiple different services.
 
   - title: Projects @ PicsArt
     layout: list
