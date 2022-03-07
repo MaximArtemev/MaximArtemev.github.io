@@ -58,7 +58,7 @@ content:
         layout: left
         border: weak
         description: | # this will include new lines to allow paragraphs
-          As a part of the beautification team, I single-handedly worked on a hair recoloring tool. My goal was to deliver a *fast* (less than half a second) and *lightweight* (less than 4Mb) mobile application for photo-realistic hair recoloring. My research consisted of a number of steps: 
+          As a part of the beautification team, I single-handedly worked on a hair recoloring tool. My goal was to deliver a *fast (less than half a second)* and *lightweight (less than 4Mb)* mobile application for photo-realistic hair recoloring. My research consisted of a number of steps: 
 
           * Data collection and annotation, data filtration, bias (gender, race, hair color, hair type) elimination.
           * Initial model research and training: The initial solution was relatively big and heavy; [UNet](https://arxiv.org/abs/1505.04597)-like generator model in a [StarGAN](https://arxiv.org/abs/1912.01865)-like framework.
@@ -73,7 +73,7 @@ content:
           
           ![](images/haircolor/271.jpg)
 
-          We are continuing to increase the quality and latency of the model to this day. For instance, the precise calculation of the hair mask was taken too much time, so we created a novel approach for our model to generate without it. This way, we saved approximately 0.2 ms from inference time, making it possible to use hair recoloring on video sequences.
+          We are continuing to increase the quality and latency of the model to this day. For instance, the precise calculation of the hair mask was taken too much time, so we created a novel approach for our model to generate without it. This way, we *saved approximately 0.2 ms* from inference time, making it possible to use hair recoloring on video sequences.
         
       - title: Hair Transfer
         layout: left
