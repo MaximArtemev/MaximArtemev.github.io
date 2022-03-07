@@ -19,7 +19,7 @@ linkedin_username: maxim-artemev
 about_title: About Me
 about_profile_image: images/profile1.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi! My name's Max and I'm a deep learning engineer and/or researcher in the field of generative models and/or computer vision. My area of expertise is image-to-image GAN-based models, modern normalizing flows and visual transformers applied for various computer vision tasks.
+  Hi! My name is Max and I'm a deep learning engineer and/or researcher in the field of Generative Models and/or Computer Vision. My area of expertise is image-to-image GAN-based models, modern Normalizing Flows and Visual Transformers applied for various Computer Vision tasks.
 
   Currently I'm working at ByteDance on a TikTok de-duplication algorithm. I'm using state-of-the-art Visual Transformers to increase quality of the video embeddings to bring overall improvement to the whole platform.
 
@@ -61,7 +61,7 @@ content:
           As a part of the beautification team, I single-handedly worked on a hair recoloring tool. My goal was to deliver a **fast** (less than half of a second) and **lightweight** (less than 4Mb) mobile application for photo-realistic hair recoloring. My research consisted in a number of important steps: 
 
           * Data collection and annotation, data filtration, bias (gender, race, hair color, hair type) elimination.
-          * Initial model research and training: I had a relatively big and heavy [UNet](https://arxiv.org/abs/1505.04597)-like generator model in a [StarGAN](https://arxiv.org/abs/1912.01865)-like framework.
+          * Initial model research and training: The initial solution were relatively big and heavy; [UNet](https://arxiv.org/abs/1505.04597)-like generator model in a [StarGAN](https://arxiv.org/abs/1912.01865)-like framework.
           * Distillation: At this point I had a small team of junior researchers. We tried multiple approaches to GAN distillation ([1](https://ojs.aaai.org/index.php/AAAI/article/view/5765), [2](https://arxiv.org/pdf/1902.00159.pdf), [3](https://arxiv.org/abs/2103.03467), [4](https://www.semanticscholar.org/paper/KDGAN%3A-Knowledge-Distillation-with-Generative-Wang-Zhang/2a4f50cca273813da26ef25e5bda7d01b5e0dde6)) and decided to develop our own, paper on that in submission to ECCV 2022.
           * Quantization: we used a simple static quantization from [Pytorch beta](https://pytorch.org/docs/stable/quantization.html)
           * For mobile inference, I packed everything in <mark>ONNX</mark> and <mark>MNN</mark> frameworks.
@@ -71,7 +71,7 @@ content:
 
           ![](images/haircolor/image2.jpg)
           
-          ![](images/haircolor/image3.jpg)
+          ![](images/haircolor/271.jpg)
 
           We are continuing to increase quality and latency of the model to this day. For instance, the precice calculation of the hair mask was taken too much time, so we created a novel approach for our model to generate without it. This way we saved approximately 0.1-0.2 ms from inference time making it possible to use hair recoloring on video sequences.
         
@@ -90,7 +90,7 @@ content:
         layout: left
         border: weak
         description: |
-          Since PicsArt was shifting to be become a video platform there were a lot of video-related projects. I worked on one of it, namely, Video Auto Adjustment or Video Enhancement task. We wanted to have a very small but capable model to auto-adjust brightness, contrast, sharpness and other adjustment handles on any given video to make it "better". The main aim of this project is to give the user control over adjust parameters like in the photo editing.
+          PicsArt is aiming to shift to be a video platform, so, there were a lot of video-related projects. I worked on the Video Auto Adjustment or Video Enhancement task. We wanted to have a very small but capable model to auto-adjust brightness, contrast, sharpness and other adjustment handles on any given video to make it "better". The main aim of this project is to give the user control over adjust parameters like in the photo editing.
 
           The solution is simple: a small fully-convolutional model that performs a regression over the adjust parameters based on a LAB video frames. Unfortunately, this solution is only available for fully annotated datasets. For this reason the logical extention of the project is to build a model that could learn auto adjustment in an unsupervised fashion.
           
@@ -170,21 +170,21 @@ content:
 
           During my time there I made a number of publically available talks and lectures about generative models in high energy physics:
 
-          1. 24th International Conference on Computing in High-Energy and Nuclear Physics, 2019
-          2. Innovative Team-Teaching For Physics, 2019
-          3. Machine Learning in High Energy Physics Summer School, Oxford, 2019
+          * 24th International Conference on Computing in High-Energy and Nuclear Physics, 2019
+          * Innovative Team-Teaching For Physics, 2019
+          * Machine Learning in High Energy Physics Summer School, Oxford, 2019
 
           For now I'm yet to publish a paper in collaboration with PicsArt, but we have three new submissions to ECCV 2022:
 
-          1. Knowledge Distillation of Normalizing Flows
+          * Knowledge Distillation of Normalizing Flows
 
           Here we explore conventional knowledge distillation methods applied to Normalizing Flows. We propose a novel NF-specfic KD solution that improves student flow quality by more that 30% compared to conventional methods
 
-          2. Deep Normalizing Flows
+          * Deep Normalizing Flows
 
           The name says it all! Basically we test how deep can we go with Normalizing Flows and increase metrics effectively
 
-          3. Very Tiny StarGan v2
+          * Very Tiny StarGan v2
 
           During our work on the hair recoloring project we created an interesting method to distill an image-to-image GAN. It allows for a stable and fast distillation procedure of current state-of-the-art image translation GAN, StarGAN v2.
 
