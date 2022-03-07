@@ -19,13 +19,13 @@ linkedin_username: maxim-artemev
 about_title: About Me
 about_profile_image: images/profile1.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi! My name is Max and I'm a deep learning engineer and/or researcher in the field of Generative Models and/or Computer Vision. My area of expertise is image-to-image GAN-based models, modern Normalizing Flows and Visual Transformers applied for various Computer Vision tasks.
+  Hi! My name is Max, and I’m a deep learning engineer and/or researcher in Generative Models and/or Computer Vision. My area of expertise is image-to-image GAN-based models, modern Normalizing Flows, and Visual Transformers applied for various Computer Vision tasks.
 
-  Currently I'm working at ByteDance on a TikTok de-duplication algorithm. I'm using state-of-the-art Visual Transformers to increase quality of the video embeddings to bring overall improvement to the whole platform.
+  Currently, I’m working at ByteDance on a TikTok de-duplication algorithm. I’m using state-of-the-art Visual Transformers to increase the quality of the video embeddings to bring overall improvement to the whole platform.
 
-  At the same time, I'm continuing doing project work at PicsArt and supervising a team of junior researchers too. Previously, I worked on an image-to-image tasks (hair recoloring and hair transfer). Now, together with my research team, I'm submitting our inner research to a various conferences to spred our methods and ideas.
+  At the same time, I continue doing project work at PicsArt and supervising a team of junior researchers. Previously, I worked on image-to-image tasks (hair recoloring and hair transfer). Together with my research team, I’m submitting our inner research to various conferences to spread our methods and ideas.
 
-  Before joining PicsArt I worked at the Lambda laboratory. My main area of focus were generative models and their application to high energy physics. My work there were focused on the collaboration with [Large Hadron Collider beauty experiment](https://home.cern/science/experiments/lhcb) on [fast particle simulation with GANs](https://arxiv.org/abs/1905.11825).
+  Before joining PicsArt, I worked at the Lambda laboratory. My main area of focus was generative models and their application to high-energy physics. My work there was focused on the collaboration with [Large Hadron Collider beauty experiment](https://home.cern/science/experiments/lhcb) on [fast particle simulation with GANs](https://arxiv.org/abs/1905.11825).
   
   If interested, you can find my [CV](https://drive.google.com/file/d/1ORIEKsooJPeOLmrUxMKm92NyIrLf1d3u/view?usp=sharing) here.
 
@@ -42,11 +42,11 @@ content:
         layout: left
         border: weak
         description: | 
-          As a part of the deduplication team located in Singapore my goal is to improve quality of the TikTok duplicates recognition algorithm. Currently, I'm working in two different directions: engineering and research.
+          As a part of the deduplication team located in Singapore, my goal is to improve the quality of the TikTok duplicates recognition algorithm. Currently, I'm working in two different directions: engineering and research.
           
-          From engineering side, I'm designing a new architecture for the OCR-based video deduplication. I'm setting up monitorings, building processing services jointly with other engineers and writing python code to wrap already existing OCR models.
+          I'm designing a new architecture for the OCR-based video deduplication from the engineering side. I'm setting up monitoring, building processing services jointly with other engineers, and writing python code to wrap existing OCR models.
           
-          From the research side, I'm experimenting with a novel video embeddings using [Visual Transformer](https://arxiv.org/abs/2010.11929) and [Masked AutoEncoders](https://arxiv.org/abs/2111.06377). My aim is to build a scalable and fast temporal video embeddings that can utilize full power of ViTs. One of the possible applications for such embeddings is deduplication, but in general it could be used in multiple different services.
+          From the research side, I'm experimenting with a novel video embedding using [Visual Transformer](https://arxiv.org/abs/2010.11929) and [Masked AutoEncoders](https://arxiv.org/abs/2111.06377). My aim is to build a scalable and fast temporal video embedding that can utilize the full power of ViTs. One of the possible applications for such embeddings is deduplication. Still, in general, it could be used in multiple different services.
 
   - title: Projects @ PicsArt
     layout: list
@@ -58,11 +58,11 @@ content:
         layout: left
         border: weak
         description: | # this will include new lines to allow paragraphs
-          As a part of the beautification team, I single-handedly worked on a hair recoloring tool. My goal was to deliver a **fast** (less than half of a second) and **lightweight** (less than 4Mb) mobile application for photo-realistic hair recoloring. My research consisted in a number of important steps: 
+          As a part of the beautification team, I single-handedly worked on a hair recoloring tool. My goal was to deliver a **fast** (less than half a second) and **lightweight** (less than 4Mb) mobile application for photo-realistic hair recoloring. My research consisted of a number of important steps: 
 
           * Data collection and annotation, data filtration, bias (gender, race, hair color, hair type) elimination.
-          * Initial model research and training: The initial solution were relatively big and heavy; [UNet](https://arxiv.org/abs/1505.04597)-like generator model in a [StarGAN](https://arxiv.org/abs/1912.01865)-like framework.
-          * Distillation: At this point I had a small team of junior researchers. We tried multiple approaches to GAN distillation ([1](https://ojs.aaai.org/index.php/AAAI/article/view/5765), [2](https://arxiv.org/pdf/1902.00159.pdf), [3](https://arxiv.org/abs/2103.03467), [4](https://www.semanticscholar.org/paper/KDGAN%3A-Knowledge-Distillation-with-Generative-Wang-Zhang/2a4f50cca273813da26ef25e5bda7d01b5e0dde6)) and decided to develop our own, paper on that in submission to ECCV 2022.
+          * Initial model research and training: The initial solution was relatively big and heavy; [UNet](https://arxiv.org/abs/1505.04597)-like generator model in a [StarGAN](https://arxiv.org/abs/1912.01865)-like framework.
+          * Distillation: I had a small team of junior researchers at this point. We tried multiple approaches to GAN distillation ([1](https://ojs.aaai.org/index.php/AAAI/article/view/5765), [2](https://arxiv.org/pdf/1902.00159.pdf), [3](https://arxiv.org/abs/2103.03467), [4](https://www.semanticscholar.org/paper/KDGAN%3A-Knowledge-Distillation-with-Generative-Wang-Zhang/2a4f50cca273813da26ef25e5bda7d01b5e0dde6)) and decided to develop our own, paper on that in submission to ECCV 2022.
           * Quantization: we used a simple static quantization from [Pytorch beta](https://pytorch.org/docs/stable/quantization.html)
           * For mobile inference, I packed everything in <mark>ONNX</mark> and <mark>MNN</mark> frameworks.
 
@@ -73,15 +73,15 @@ content:
           
           ![](images/haircolor/271.jpg)
 
-          We are continuing to increase quality and latency of the model to this day. For instance, the precice calculation of the hair mask was taken too much time, so we created a novel approach for our model to generate without it. This way we saved approximately 0.1-0.2 ms from inference time making it possible to use hair recoloring on video sequences.
+          We are continuing to increase the quality and latency of the model to this day. For instance, the precise calculation of the hair mask was taken too much time, so we created a novel approach for our model to generate without it. This way, we saved approximately 0.2 ms from inference time, making it possible to use hair recoloring on video sequences.
         
       - title: Hair Transfer
         layout: left
         border: weak
         description: |
-          Another project for our beautification team. I mostly supervised it, but I think I should still state it here. 
+          Another project for our beautification team. I mainly supervised it, but I think I should still state it here. 
           
-          The goal was to create an algorithm that could photorealistically insert the hair from the reference image to the source image. The most interesting steps in the project pipeline are:
+          The goal was to create an algorithm that could photo-realistically insert the hair from the reference image to the source image. The most exciting steps in the project pipeline are:
           * Facial keypoint detection and face alignment
           * Facial segmentation and hair alpha mask calculation
           * Statistical recoloring, alpha-blending
@@ -90,9 +90,9 @@ content:
         layout: left
         border: weak
         description: |
-          PicsArt is aiming to shift to be a video platform, so, there were a lot of video-related projects. I worked on the Video Auto Adjustment or Video Enhancement task. We wanted to have a very small but capable model to auto-adjust brightness, contrast, sharpness and other adjustment handles on any given video to make it "better". The main aim of this project is to give the user control over adjust parameters like in the photo editing.
+          PicsArt aims to shift to be a video platform, so there were a lot of video-related projects. I worked on the Video Auto Adjustment or Video Enhancement task. We wanted to have a tiny but capable model to auto-adjust brightness, contrast, sharpness, and other adjustment handles on any given video to make it "better." The main aim of this project is to give the user control over adjust parameters like in photo editing.
 
-          The solution is simple: a small fully-convolutional model that performs a regression over the adjust parameters based on a LAB video frames. Unfortunately, this solution is only available for fully annotated datasets. For this reason the logical extention of the project is to build a model that could learn auto adjustment in an unsupervised fashion.
+          The solution is simple: a small fully-convolutional model that performs a regression over the adjust parameters based on LAB video frames. But unfortunately, this solution is only available for fully annotated datasets. For this reason, the logical extension of the project is to build a model that could learn auto adjustment in an unsupervised fashion.
           
           #### Examples (clickable):
 
@@ -110,7 +110,7 @@ content:
         layout: left
         border: weak
         description: | # this will include new lines to allow paragraphs
-          [Ring Imaging Cherenkov (RICH) detector](https://lhcb-public.web.cern.ch/en/detector/RICH-en.html) is one of the steps for the Large Hadron Collider beauty experiment. Basically, we want to pass a particle through it and calculate probablities of a particle beeing a certain type. While the classification model is very simple, it requires a lot of data to train it. 
+          [Ring Imaging Cherenkov (RICH) detector](https://lhcb-public.web.cern.ch/en/detector/RICH-en.html) is one of the steps for the Large Hadron Collider beauty experiment. Basically, we want to pass a particle through it and calculate the probability of a particle being a particular type. While the classification model is straightforward, it requires a lot of data to train it. 
           
           To solve this, our team produced a good conditional [Cramer GAN](https://arxiv.org/abs/1705.10743) to generate a lot of data to simulate specific LHCb experiments. This allowed for a fast data simulation (around 10000 events per second), especially compared with Monte-Carlo methods (2-5 events per second), previously used by physicists.
 
@@ -118,9 +118,9 @@ content:
         layout: left
         border: weak
         description: |
-          This project is a collaboration with [FermiLab](https://www.fnal.gov/). It aimed to study neutrino interactions with matter. My goal was to build a stable pre-processing pipeline for sparse data and build low-latency models for online event filtering. There is a good [presentation](https://indico.cern.ch/event/773049/contributions/3474765/attachments/1937737/3211868/GraphNNDune.pdf) at [CHEP 2019](https://indico.cern.ch/event/773049/contributions/3474765/) that well summarizes the whole project. 
+          This project is a collaboration with [FermiLab](https://www.fnal.gov/). It aimed to study neutrino interactions with matter. My goal was to build a stable pre-processing pipeline for sparse data and build low-latency models for online event filtering. There is a good [presentation](https://indico.cern.ch/event/773049/contributions/3474765/attachments/1937737/3211868/GraphNNDune.pdf) at [CHEP 2019](https://indico.cern.ch/event/773049/contributions/3474765/) that nicely summarizes the whole project. 
 
-          My contribution to this project is a graph neural network that denoise and sparsify events as a part of the engineering pipeline. As far as I know, the proposed solution is still used inside current DUNE experiments.
+          My contribution to this project is a graph neural network that denoise and sparsifies events as a part of the engineering pipeline. As far as I know, the proposed solution is still used inside current DUNE experiments.
 
   - title: Additional Experience
     layout: list 
@@ -131,15 +131,15 @@ content:
         sub_title: Teacher
         caption: September 2018 - Present
         description: | 
-            I started teaching at my second year in the university. At first it was just a private counceling sessions, then I became a teacher's assistant on a variety of deep learning related courses.
-            A couple of years ago I teached a [half a year long course on intro to machine and deep learning](https://www.hse.ru/en/news/admission/207148580.html) for students in "International Relations" faculty. Right after my graduation, together with my supervisor in Lambda laboratories I started my own course called Generative Models. In this semester course I cover most of the state-of-the-art generative models including GANs, VAEs, Normalizing Flows, etc. 
+            I started teaching during my second year at the university. At first, it was just private counseling sessions. Then I became a teacher's assistant on various deep learning-related courses.
+            A couple of years ago, I taught a [half a year-long course on intro to machine and deep learning](https://www.hse.ru/en/news/admission/207148580.html) for students in the "International Relations" faculty. After my graduation, together with my supervisor in Lambda laboratory, I started my own course called Generative Models. This semester-long course covers most of the state-of-the-art generative models, including GANs, VAEs, Normalizing Flows, etc. 
 
       - layout: left
         title: Yandex
         link: https://en.wikipedia.org/wiki/Yandex_Zen
         sub_title: Intern
         description: | 
-            During my student years I got an internship at Yandex. During three months I worked on a various NLP models specifically tailored to solve deduplication tasks. While most of my work there was around the text embeddings like word2vec, fasttext, doc2vec I managed to ship a [siamese neural network](https://en.wikipedia.org/wiki/Siamese_neural_network) to the production, increasing deduplication quality.
+            During my student years, I got an internship at Yandex. I worked on various NLP models specifically tailored to solve deduplication tasks for three months. While most of my work there was about the text embeddings like word2vec, fasttext, doc2vec, I managed to ship a [Siamese neural network](https://en.wikipedia.org/wiki/Siamese_neural_network) to the production, increasing deduplication quality.
 
   - title: Education
     layout: list
@@ -149,11 +149,12 @@ content:
         caption: 2015-2019
         sub_title: BSc Computer Science
         quote: >
-          Even though it called a "Higher School of Economics", the faculty I studied in was considered top-1 computer science in whole Russia and was specifically tailored to taught applied machine learning skill.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Even though it is called a "Higher School of Economics", the faculty I studied in was considered top-1 computer science in Russia and was specifically tailored to teach applied machine learning skills.
 
-          I consistantly went for top places in the intra-university <mark>Kaggle</mark> competitions and worked as a teacher assistant during my last two years there.
+        description: |
+          During my time at HSE, I learned most of my key skills that have I have taken through my career, such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learned a lot about a healthy work-life balance.
+
+          I consistently went for top places in the intra-university <mark>Kaggle</mark> competitions and worked as a teacher assistant during my last two years there.
 
           My bachelor thesis is about GANs for the [fast simulation of particle interactions](https://arxiv.org/abs/1905.11825) for CERN's LHCb experiment.  
 
@@ -163,30 +164,30 @@ content:
     content:
       - layout: left
         description: |
-          My work with Lambda laboratories was very productive in term of papers and talks:
+          My work with Lambda laboratories was very productive in terms of papers and talks:
 
           1. Paper at the Advanced Computing and Analysis Techniques in Physics Research 2019: [Fast Data-Driven simulation of Cherenkov Detectors Using Generative Adversarial Networks](https://arxiv.org/abs/1905.11825)
           2. Poster at NeurIPS 2019 about the same thing
 
-          During my time there I made a number of publically available talks and lectures about generative models in high energy physics:
+          During my time there, I made several publically available talks and lectures about generative models in high energy physics:
 
           * 24th International Conference on Computing in High-Energy and Nuclear Physics, 2019
           * Innovative Team-Teaching For Physics, 2019
           * Machine Learning in High Energy Physics Summer School, Oxford, 2019
 
-          For now I'm yet to publish a paper in collaboration with PicsArt, but we have three new submissions to ECCV 2022:
+          For now, I'm yet to publish a paper in collaboration with PicsArt, but we have three new submissions to ECCV 2022:
 
           * Knowledge Distillation of Normalizing Flows
 
-          Here we explore conventional knowledge distillation methods applied to Normalizing Flows. We propose a novel NF-specfic KD solution that improves student flow quality by more that 30% compared to conventional methods
+          Here we explore conventional knowledge distillation methods applied to Normalizing Flows. We propose a novel NF-specific KD solution that improves student flow quality by more than 30% compared to conventional methods.
 
           * Deep Normalizing Flows
 
-          The name says it all! Basically we test how deep can we go with Normalizing Flows and increase metrics effectively
+          The name says it all! Basically, we test how deep we can go with Normalizing Flows and increasing metrics effectively
 
           * Very Tiny StarGan v2
 
-          During our work on the hair recoloring project we created an interesting method to distill an image-to-image GAN. It allows for a stable and fast distillation procedure of current state-of-the-art image translation GAN, StarGAN v2.
+          During our hair recoloring project, we created an exciting method to distill an image-to-image GAN. It allows for a stable and fast distillation procedure of current state-of-the-art image translation GAN, StarGAN v2.
 
 # Footer
 footer_show_references: true
