@@ -127,33 +127,62 @@ content:
         sub_title: Teacher
         caption: September 2018 - Present
         description: | 
-            I started teaching at my second year in the university. At first it was just a private counceling sessions, then I became a teacher's assistant on a variety of deep learning related courses. Right after the graduation together with my supervisor in Lambda laboratories I started my own course called Generative Models. In this semester course
+            I started teaching at my second year in the university. At first it was just a private counceling sessions, then I became a teacher's assistant on a variety of deep learning related courses.
+            A couple of years ago I teached a [half a year long course on intro to machine and deep learning](https://www.hse.ru/en/news/admission/207148580.html) for students in "International Relations" faculty. Right after my graduation, together with my supervisor in Lambda laboratories I started my own course called Generative Models. In this semester course I cover most of the state-of-the-art generative models including GANs, VAEs, Normalizing Flows, etc. 
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+      - layout: left
+        title: Yandex
+        link: https://en.wikipedia.org/wiki/Yandex_Zen
+        sub_title: Intern
+        description: | 
+            During my student years I got an internship at Yandex. During three months I worked on a various NLP models specifically tailored to solve deduplication tasks. While most of my work there was around the text embeddings like word2vec, fasttext, doc2vec I managed to ship a [siamese neural network](https://en.wikipedia.org/wiki/Siamese_neural_network) to the production, increasing deduplication quality.
+
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
+        title: Higher School of Economics (Moscow)
+        caption: 2015-2019
         sub_title: BSc Computer Science
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Even though it called a "Higher School of Economics", the faculty I studied in was considered top-1 computer science in whole Russia and was specifically tailored to taught applied machine learning skill.
         description: | # this will include new lines to allow paragraphs
           During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I consistantly went for top places in the intra-university <mark>Kaggle</mark> competitions and worked as a teacher assistant during my last two years there.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+          My bachelor thesis is about GANs for the [fast simulation of particle interactions](https://arxiv.org/abs/1905.11825) for CERN's LHCb experiment.  
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+  - title: Papers 
+    layout: list
+    content:
+      - layout: left
+        description: |
+          My work with Lambda laboratories was very productive in term of papers and talks:
+
+          1. Paper at the Advanced Computing and Analysis Techniques in Physics Research 2019: [Fast Data-Driven simulation of Cherenkov Detectors Using Generative Adversarial Networks](https://arxiv.org/abs/1905.11825)
+          2. Poster at NeurIPS 2019 about the same thing
+
+          During my time there I made a number of publically available talks and lectures about generative models in high energy physics:
+
+          1. 24th International Conference on Computing in High-Energy and Nuclear Physics, 2019
+          2. Innovative Team-Teaching For Physics, 2019
+          3. Machine Learning in High Energy Physics Summer School, Oxford, 2019
+
+          For now I'm yet to publish a paper in collaboration with PicsArt, but we have three new submissions to ECCV 2022:
+
+          1. Knowledge Distillation of Normalizing Flows
+
+          Here we explore conventional knowledge distillation methods applied to Normalizing Flows. We propose a novel NF-specfic KD solution that improves student flow quality by more that 30% compared to conventional methods
+
+          2. Deep Normalizing Flows
+
+          The name says it all! Basically we test how deep can we go with Normalizing Flows and increase metrics effectively
+
+          3. Very Tiny StarGan v2
+
+          During our work on the hair recoloring project we created an interesting method to distill an image-to-image GAN. It allows for a stable and fast distillation procedure of current state-of-the-art image translation GAN, StarGAN v2.
 
 # Footer
 footer_show_references: true
