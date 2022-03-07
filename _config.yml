@@ -10,6 +10,7 @@ name: Maxim Artemev
 title: Deep Learning Engineer and/or Researcher
 email: mrartemev.me@gmail.com
 website: https://maximartemev.github.io/
+website_title: This page
 darkmode: never
 github_username:  MaximArtemev
 linkedin_username: maxim-artemev
@@ -18,13 +19,17 @@ linkedin_username: maxim-artemev
 about_title: About Me
 about_profile_image: images/profile1.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi! My name's Max and I'm a deep learning engineer and/or researcher in the field of generative models and/or computer vision. My area of expertise is image-to-image GAN-based models, modern normalizing flows and visual transformers for various computer vision tasks.
+  Hi! My name's Max and I'm a deep learning engineer and/or researcher in the field of generative models and/or computer vision. My area of expertise is image-to-image GAN-based models, modern normalizing flows and visual transformers applied for various computer vision tasks.
 
-  In all of my projects I'm using <mark>Python</mark> and <mark>PyTorch</mark>.
+  Currently I'm working at ByteDance on a TikTok de-duplication algorithm. I'm using state-of-the-art Visual Transformers to increase quality of the video embeddings to bring overall improvement to the whole platform.
 
+  At the same time, I'm continuing doing some project work at PicsArt and supervising a team of junior researchers too. At PicsArt I worked on an image-to-image applications, mostly hair recoloring and hair transfer. Now I'm wrapping up all inner research from there and submitting it to a various conferences together with my small research team. 
 
   Before joining PicsArt I worked at the Lambda laboratory. My main area of focus were generative models and their application to the high energy physics. During my work there I managed to finish one big project in the collaboration with [Large Hadron Collider beauty experiment](https://home.cern/science/experiments/lhcb) and published a [paper about the solution](https://arxiv.org/abs/1905.11825)
+  
+  If interested, you can find my [CV here](https://drive.google.com/file/d/1ORIEKsooJPeOLmrUxMKm92NyIrLf1d3u/view?usp=sharing)
 
+  In all my projects I'm using <mark>Python</mark> and <mark>PyTorch</mark>.
 
 content:
   - title: Projects @ PicsArt
