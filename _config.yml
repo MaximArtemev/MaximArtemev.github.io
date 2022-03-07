@@ -169,8 +169,8 @@ content:
         description: |
           My work with Lambda laboratories was very productive in terms of papers and talks:
 
-          1. Paper at the Advanced Computing and Analysis Techniques in Physics Research 2019: [Fast Data-Driven simulation of Cherenkov Detectors Using Generative Adversarial Networks](https://arxiv.org/abs/1905.11825)
-          2. Poster at NeurIPS 2019 about the same thing
+          * Paper at the Advanced Computing and Analysis Techniques in Physics Research 2019: [Fast Data-Driven simulation of Cherenkov Detectors Using Generative Adversarial Networks](https://arxiv.org/abs/1905.11825)
+          * Poster at NeurIPS 2019 about the same thing
 
           During my time there, I made several publically available talks and lectures about generative models in high energy physics:
 
