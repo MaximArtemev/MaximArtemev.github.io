@@ -26,7 +26,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   Currently, I’m working at ByteDance on a TikTok de-duplication algorithm. I’m using state-of-the-art Visual Transformers to increase the quality of the video embeddings to bring overall improvement to the whole platform.
 
-  At the same time, I continue doing project work at PicsArt and supervising a team of junior researchers. Previously, I worked on image-to-image tasks (hair recoloring and hair transfer). Together with my research team, I’m submitting our inner research to various conferences to spread our methods and ideas.
+  At the same time, I continue doing project work at PicsArt and supervising our research team. Previously, I worked on image-to-image tasks (hair recoloring and hair transfer). Together with my research team, I’m submitting our inner research to various conferences to spread our methods and ideas.
 
   Before joining PicsArt, I worked at the Lambda laboratory. My main area of focus was generative models and their application to high-energy physics. My work there was focused on the collaboration with [Large Hadron Collider beauty experiment](https://home.cern/science/experiments/lhcb) on [fast particle simulation with GANs](https://arxiv.org/abs/1905.11825).
   
@@ -67,7 +67,7 @@ content:
 
           * Data collection and annotation, data filtration, bias (gender, race, hair color, hair type) elimination.
           * Initial model research and training: The initial solution was relatively big and heavy; [UNet](https://arxiv.org/abs/1505.04597)-like generator model in a [StarGAN](https://arxiv.org/abs/1912.01865)-like framework.
-          * Distillation: I had a small team of junior researchers at this point. We tried multiple approaches to GAN distillation ([1](https://ojs.aaai.org/index.php/AAAI/article/view/5765), [2](https://arxiv.org/pdf/1902.00159.pdf), [3](https://arxiv.org/abs/2103.03467), [4](https://www.semanticscholar.org/paper/KDGAN%3A-Knowledge-Distillation-with-Generative-Wang-Zhang/2a4f50cca273813da26ef25e5bda7d01b5e0dde6)) and decided to develop our own, paper on that in submission to ECCV 2022.
+          * Distillation: I had a team of researchers at this point. We tried multiple approaches to GAN distillation ([1](https://ojs.aaai.org/index.php/AAAI/article/view/5765), [2](https://arxiv.org/pdf/1902.00159.pdf), [3](https://arxiv.org/abs/2103.03467), [4](https://www.semanticscholar.org/paper/KDGAN%3A-Knowledge-Distillation-with-Generative-Wang-Zhang/2a4f50cca273813da26ef25e5bda7d01b5e0dde6)) and decided to develop our own, paper on that in submission to ECCV 2022.
           * Quantization: we used a simple static quantization from [Pytorch beta](https://pytorch.org/docs/stable/quantization.html)
           * For mobile inference, I packed everything in <mark>ONNX</mark> and <mark>MNN</mark> frameworks.
 
