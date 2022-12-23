@@ -7,37 +7,37 @@ version: 2
 
 # Personal info
 name: Maxim Artemev
-title: Deep Learning Engineer and/or Researcher
+title: Deep Learning Wizzard
 email: mrartemev.me@gmail.com
-website: shorturl.at/epBR3
+website: shorturl.at/kX567
 website_title: CV
 phone: meretemev
 phone_title: telegram
 
 darkmode: never
-github_username:  MaximArtemev
+#github_username:  MaximArtemev
 linkedin_username: maxim-artemev
 
 # About Section
 about_title: About Me
 about_profile_image: images/profile1.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi! My name is Max, and I’m a deep learning engineer and/or researcher in Generative Models and/or Computer Vision. My area of expertise is image-to-image GAN-based models, modern Normalizing Flows, and Visual Transformers applied for various Computer Vision tasks.
+  Hello there! My name is Max (short for Maksim) and I am a seasoned deep learning engineer with a passion for image-to-image GANs, Normalizing Flows, and Visual Transformers.
+  I am currently a member of the talented team at [Zero10](https://zero10.app/), a seed-stage startup, where I am working on improving our state-of-the-art multitask model for person segmentation and pose estimation.
+  Together we are creating real-time fashion try-on algorithms that run at 30 FPS on mobile and produce state-of-the-art results.
 
-  Currently, I’m working at ByteDance on a TikTok de-duplication algorithm. I’m using state-of-the-art Visual Transformers to increase the quality of the video embeddings to bring overall improvement to the whole platform.
+  I began my career at [Lambda](https://cs.hse.ru/en/lambda/) laboratory, where I focused on generative models and their application to high-energy physics.
+  Specifically, I collaborated with the [Large Hadron Collider beauty experiment](https://home.cern/science/experiments/lhcb) on fast particle simulation using GANs
+  I then worked as a CV engineer at [PicsArt](https://picsart.com/en), where I developed image-to-image hair recoloring GANs and publishing papers on Normalizing Flows and GANs.
+  Before joining Zero10, I was at ByteDance Singapore, where I developed video-level embeddings for video comparison and made many other improvements to deduplication filters.
 
-  At the same time, I continue doing project work at PicsArt and supervising our research team. Previously, I worked on image-to-image tasks (hair recoloring and hair transfer). Together with my research team, I’m submitting our inner research to various conferences to spread our methods and ideas.
+  If interested, you can find my resume [here](shorturl.at/kX567).
 
-  Before joining PicsArt, I worked at the Lambda laboratory. My main area of focus was generative models and their application to high-energy physics. My work there was focused on the collaboration with [Large Hadron Collider beauty experiment](https://home.cern/science/experiments/lhcb) on [fast particle simulation with GANs](https://arxiv.org/abs/1905.11825).
-  
-  If interested, you can find my [CV](https://drive.google.com/file/d/1ORIEKsooJPeOLmrUxMKm92NyIrLf1d3u/view?usp=sharing) here.
+  If you wish to contact me directly, please feel free to use my personal email: *mrartemev.me@gmail.com* or my telegram: *@ meretemev*
 
-  In all my projects I'm using <mark>Python</mark> and <mark>PyTorch</mark>.
-
-  If you want to contact me directly, please use my mail: *mrartemev.me@gmail.com* or my telegram: *@ meretemev*
 
 content:
-  - title: Projects @ ByteDance
+  - title: TikTok - ByteDance
     layout: list
     caption: October 2021 - Present
     link: https://www.bytedance.com/en/
@@ -47,23 +47,33 @@ content:
         layout: left
         border: weak
         description: | 
-          As a part of the deduplication team located in Singapore, my goal is to improve the quality of the TikTok duplicates recognition algorithm. Currently, I'm working jointly with two teams: engineering and research.
-          
-          I'm designing a new architecture for the OCR-based video deduplication together with the engineering team. I'm setting up monitoring, building processing services jointly with other engineers, and writing python code to wrap existing OCR models.
-          
-          With the research team, I'm experimenting with a novel video embedding using [Visual Transformer](https://arxiv.org/abs/2010.11929) and [Masked AutoEncoders](https://arxiv.org/abs/2111.06377). My aim is to build a scalable and fast temporal video embedding that can utilize the full power of ViTs. One of the possible applications for such embeddings is deduplication. Still, in general, it could be used in multiple different services.
+          As a part of the deduplication team located in Singapore, my goal was to improve the quality of the TikTok duplicates recognition algorithm.
+          At the time, I was working jointly with engineering and research teams thus creating both practical and new ways to create a de-duplication pipelines.
+          Using image features from an external CNN model and a number of various text features (fasttext, word2vec, etc)
+            I have implemented multiple robust frame feature based filters reducing total number of duplicates that end user sees by 5\%.
+          Additionally, I was setting up monitoring, building processing services jointly with other engineers, and writing python code to wrap existing OCR models, usual stuff.
+
+          My big project there was designing a new architecture for video-level embeddings that could be useful for video deduplication.
+          Using [Visual Transformers](https://arxiv.org/abs/2010.11929) and [Masked AutoEncoder approach](https://arxiv.org/abs/2111.06377)
+            I have created a robust, scale-invariant ViT model that can produce embeddings that could be used in different services, not only deduplication.
 
   - title: Projects @ PicsArt
     layout: list
-    caption: May 2020 - Present (project work)
+    caption: May 2020 - October 2021
     link: https://picsart.com/ru
     sub_title: Computer Vision Researcher
     content:
       - title: Hair Recoloring
         layout: left
         border: weak
-        description: | # this will include new lines to allow paragraphs
-          As a part of the beautification team, I single-handedly worked on a hair recoloring tool. My goal was to deliver a fast *(less than half a second)* and lightweight *(less than 4Mb)* mobile application for photo-realistic hair recoloring. My research consisted of a number of steps: 
+        description: |
+          When I joined Picsart, I was the only one working on a hair recoloring tool.
+          After year and a half, I was leading a small team working on multiple beautification solutions for the app.
+
+          So, my initial goal was to deliver a simple backend application for photo-realistic hair recoloring.
+          In the end, me and the team I was leading was able to produce a very fast *(10 FPS)* and lightweight *(less than 4Mb)* model suitable for use in mobile environments.
+
+          This journey consisted of a number of steps:
 
           * Data collection and annotation, data filtration, bias (gender, race, hair color, hair type) elimination.
           * Initial model research and training: The initial solution was relatively big and heavy; [UNet](https://arxiv.org/abs/1505.04597)-like generator model in a [StarGAN](https://arxiv.org/abs/1912.01865)-like framework.
