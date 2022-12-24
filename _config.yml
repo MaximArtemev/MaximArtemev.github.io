@@ -69,7 +69,7 @@ content:
           This approach not only improved overall metric quality by approximately 10%,
           but also reduced the time it took for iPhones to overheat by 4 minutes.
 
-                       |            |  
+           Some examples of the try-on algorithm            |            |
           :-------------------------:|:-------------------------:|:-------------------------:
           ![](images/zero10/image1.jpg)   | ![](images/zero10/image2.jpg) | ![](images/zero10/image3.jpg)
 
@@ -120,7 +120,8 @@ content:
 
           ![](images/haircolor/271.jpg)
 
-          \
+          &nbsp
+
           #### Hair Transfer
 
           In addition to my work on the hair coloring tool for Picsart,
@@ -128,7 +129,8 @@ content:
           As a supervisor on this project, I oversaw the implementation of key steps such as facial keypoint detection,
           face alignment, facial segmentation, hair alpha mask calculation, statistical coloring, and inpainting.
 
-          \
+          &nbsp
+
           #### Video Enhancement
 
           As part of PicsArt's transition to a video platform, I worked on the Video Auto Adjustment/Enhancement task.
@@ -161,7 +163,8 @@ content:
           which were previously used by physicists.
           The use of the Cramer GAN allowed physicists to efficiently generate data for modeling particle probabilities for multiple LHCb experiments.
 
-          \
+          &nbsp
+          
           #### Deep Underground Neutrino Experiment
 
           This project was a collaboration with FermiLab, with the goal of studying neutrino interactions with matter.
