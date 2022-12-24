@@ -75,7 +75,7 @@ content:
 
            Some examples of the try-on algorithm            |            |
           :-------------------------:|:-------------------------:|:-------------------------:
-          ![](images/zero10/image1.jpg =1080x720)   | ![](images/zero10/image2.jpg =1080x720) | ![](images/zero10/image3.jpg =1080x720)
+          ![](images/zero10/image1.jpg)   | ![](images/zero10/image2.jpg) | ![](images/zero10/image3.jpg)
 
 
       - title: Bytedance
@@ -120,7 +120,7 @@ content:
 
           ![](images/haircolor/271.jpg)
 
-          $~$
+          #
 
           #### Hair Transfer
 
@@ -129,7 +129,7 @@ content:
           As a supervisor on this project, I oversaw the implementation of key steps such as facial keypoint detection,
           face alignment, facial segmentation, hair alpha mask calculation, statistical coloring, and inpainting.
 
-          $~$
+          #
 
           #### Video Enhancement
 
@@ -163,7 +163,7 @@ content:
           which were previously used by physicists.
           The use of the Cramer GAN allowed physicists to efficiently generate data for modeling particle probabilities for multiple LHCb experiments.
 
-          $~$
+          #
 
           #### Deep Underground Neutrino Experiment
 
