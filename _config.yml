@@ -69,6 +69,11 @@ content:
           This approach not only improved overall metric quality by approximately 10%,
           but also reduced the time it took for iPhones to overheat by 4 minutes.
 
+          Solarized dark             |  Solarized Ocean          |  Solarized Ocean
+          :-------------------------:|:-------------------------:|:-------------------------:
+          ![](images/zero10/image1.jpg)   | ![](images/zero10/image3.jpg) | ![](images/zero10/image3.jpg)
+
+
           Currently, I am exploring new approaches to generative fashion design,
           including the use of Stable Diffusion for 3D point-cloud generation
           and the development of novel GAN-based photos-to-3D model scanners.
@@ -82,17 +87,14 @@ content:
         description: |
           As a member of the deduplication team in Singapore, I was focused on improving the accuracy of the TikTok duplicates recognition algorithm.
           In collaboration with engineering and research teams, I developed practical and innovative approaches to create de-duplication pipelines.
-          Utilizing image features from an external CNN model and a variety of text features (such as fasttext and word2vec), I implemented multiple robust frame feature-based filters that reduced the number of duplicates that end users saw by 5%
-          In addition, I was responsible for setting up monitoring, building processing services with other engineers, and writing python code to wrap existing OCR models.
+          Utilizing image features from an external CNN model and a variety of text features (such as fasttext and word2vec),
+          I implemented multiple robust frame feature-based filters that reduced the number of duplicates that end users saw by 5%
 
           One of my major projects was designing a new architecture for video-level embeddings that could be used for video deduplication.
-          By leveraging [Visual Transformers](https://arxiv.org/abs/2010.11929) and the [Masked AutoEncoders](https://arxiv.org/abs/2111.06377), I created a robust and scale-invariant ViT model that could produce embeddings that could be utilized in various services beyond just deduplication.
+          By leveraging [Visual Transformers](https://arxiv.org/abs/2010.11929) and the [Masked AutoEncoders](https://arxiv.org/abs/2111.06377),
+          I created a robust and scale-invariant ViT model that could produce embeddings that could be utilized in various services beyond just deduplication.
 
-          ![](images/zero10/image1.jpg)
-
-          ![](images/zero10/image2.jpg)
-
-          ![](images/zero10/image3.jpg)
+          In addition, I was responsible for setting up monitoring, building processing services with other engineers, and writing code to wrap existing ML/CV models.
 
       - title: PicsArt
         layout: left
