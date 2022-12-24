@@ -269,7 +269,7 @@ content:
 
 # Footer
 footer_show_references: true
- references_title: feel free to write
+references_title: feel free to write
 
 # Build settings
 remote_theme: sproogen/resume-theme
