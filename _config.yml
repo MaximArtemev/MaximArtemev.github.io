@@ -120,7 +120,6 @@ content:
 
           ![](images/haircolor/271.jpg)
 
-          #
 
           #### Hair Transfer
 
@@ -129,7 +128,7 @@ content:
           As a supervisor on this project, I oversaw the implementation of key steps such as facial keypoint detection,
           face alignment, facial segmentation, hair alpha mask calculation, statistical coloring, and inpainting.
 
-          #
+
 
           #### Video Enhancement
 
@@ -163,7 +162,7 @@ content:
           which were previously used by physicists.
           The use of the Cramer GAN allowed physicists to efficiently generate data for modeling particle probabilities for multiple LHCb experiments.
 
-          #
+
 
           #### Deep Underground Neutrino Experiment
 
