@@ -46,146 +46,130 @@ content:
   - title: Work Experience
     layout: list
     content:
-
       - title: Zero10 startup
-        layout: list
+        layout: left
         caption: June 2022 - Present
         link: https://zero10.app/
-        sub_title: Computer Vision Engineer
-        content:
-          - title: Virtual TryOn (Limassol)
-            layout: left
-            border: weak
-            description: |
+        sub_title: Limassol, Cyprus
+        border: weak
+        description: |
 
-              As a member of the engineering team at Zero10, a seed-stage startup focused on creating a virtual clothes TryOn futuristic platform,
-              I have been involved in developing state-of-the-art algorithms for person semantic segmentation, pose estimation, and keypoint detection.
-              These algorithms are designed to run at 30 FPS on mobile devices.
+          As a member of the engineering team at Zero10, a seed-stage startup focused on creating a virtual clothes TryOn futuristic platform,
+          I have been involved in developing state-of-the-art algorithms for person semantic segmentation, pose estimation, and keypoint detection.
+          These algorithms are designed to run at 30 FPS on mobile devices.
 
-              In collaboration with our team of 3D designers,
-              I created a fast and efficient model for semantic segmentation that is able to achieve
-              an impressive Intersection over Union score (IoU) of up to 0.85,
-              even on difficult classes such as hands and fingers.
+          In collaboration with our team of 3D designers,
+          I created a fast and efficient model for semantic segmentation that is able to achieve
+          an impressive Intersection over Union score (IoU) of up to 0.85,
+          even on difficult classes such as hands and fingers.
 
-              To meet the goal of 30 FPS performance on segmentation and other tasks,
-              I developed a novel multitask estimator that is able to jointly process and generate segmentation masks,
-              keypoints, and UV dense pose predictions.
-              This approach not only improved overall metric quality by approximately 10%,
-              but also reduced the time it took for iPhones to overheat by 4 minutes.
+          To meet the goal of 30 FPS performance on segmentation and other tasks,
+          I developed a novel multitask estimator that is able to jointly process and generate segmentation masks,
+          keypoints, and UV dense pose predictions.
+          This approach not only improved overall metric quality by approximately 10%,
+          but also reduced the time it took for iPhones to overheat by 4 minutes.
 
-              Currently, I am exploring new approaches to generative fashion design,
-              including the use of Stable Diffusion for 3D point-cloud generation
-              and the development of novel GAN-based photos-to-3D model scanners.
+          Currently, I am exploring new approaches to generative fashion design,
+          including the use of Stable Diffusion for 3D point-cloud generation
+          and the development of novel GAN-based photos-to-3D model scanners.
 
       - title: Bytedance
-        layout: list
+        layout: left
         caption: October 2021 - June 2022
         link: https://www.bytedance.com/en/
-        sub_title: Computer Vision Engineer
-        content:
-          - title: TikTok Deduplication (Singapore)
-            layout: left
-            border: weak
-            description: |
-              As a member of the deduplication team in Singapore, I was focused on improving the accuracy of the TikTok duplicates recognition algorithm.
-              In collaboration with engineering and research teams, I developed practical and innovative approaches to create de-duplication pipelines.
-              Utilizing image features from an external CNN model and a variety of text features (such as fasttext and word2vec), I implemented multiple robust frame feature-based filters that reduced the number of duplicates that end users saw by 5%
-              In addition, I was responsible for setting up monitoring, building processing services with other engineers, and writing python code to wrap existing OCR models.
+        sub_title: Singapore, Singapore
+        border: weak
+        description: |
+          As a member of the deduplication team in Singapore, I was focused on improving the accuracy of the TikTok duplicates recognition algorithm.
+          In collaboration with engineering and research teams, I developed practical and innovative approaches to create de-duplication pipelines.
+          Utilizing image features from an external CNN model and a variety of text features (such as fasttext and word2vec), I implemented multiple robust frame feature-based filters that reduced the number of duplicates that end users saw by 5%
+          In addition, I was responsible for setting up monitoring, building processing services with other engineers, and writing python code to wrap existing OCR models.
 
-              One of my major projects was designing a new architecture for video-level embeddings that could be used for video deduplication.
-              By leveraging [Visual Transformers](https://arxiv.org/abs/2010.11929) and the [Masked AutoEncoders](https://arxiv.org/abs/2111.06377), I created a robust and scale-invariant ViT model that could produce embeddings that could be utilized in various services beyond just deduplication.
+          One of my major projects was designing a new architecture for video-level embeddings that could be used for video deduplication.
+          By leveraging [Visual Transformers](https://arxiv.org/abs/2010.11929) and the [Masked AutoEncoders](https://arxiv.org/abs/2111.06377), I created a robust and scale-invariant ViT model that could produce embeddings that could be utilized in various services beyond just deduplication.
 
-              ![](images/zero10/image1.jpg)
+          ![](images/zero10/image1.jpg)
 
-              ![](images/zero10/image2.jpg)
+          ![](images/zero10/image2.jpg)
 
-              ![](images/zero10/image3.jpg)
+          ![](images/zero10/image3.jpg)
 
       - title: PicsArt
-        layout: list
+        layout: left
         caption: May 2020 - October 2021
         link: https://picsart.com/ru
-        sub_title: Computer Vision Researcher
-        content:
-          - title: Hair Recoloring
-            layout: left
-            border: weak
-            description: |
+        sub_title: Yerevan, Armenia & Moscow, Russia
+        border: weak
+        description: |
+          #### Hair Recoloring
 
-              As the lead developer at Picsart, I successfully managed and directed a team in the creation of multiple beautification solutions for the app, including a photo-realistic hair recoloring tool.
-              Within a year and a half, I successfully led a small team in creating multiple beautification solutions, including a highly efficient and lightweight model for mobile environments
-              The development process involved a range of tasks, including data collection and annotation, initial model research and training, GAN distillation and quantization.
-              I also contributed to the development of our own method for GAN distillation, which is currently in submission.
+          As the lead developer at Picsart, I successfully managed and directed a team in the creation of multiple beautification solutions for the app, including a photo-realistic hair recoloring tool.
+          Within a year and a half, I successfully led a small team in creating multiple beautification solutions, including a highly efficient and lightweight model for mobile environments
+          The development process involved a range of tasks, including data collection and annotation, initial model research and training, GAN distillation and quantization.
+          I also contributed to the development of our own method for GAN distillation, which is currently in submission.
 
-              We were continually working to improve the quality and latency of the model,
-              and have even created a novel approach to eliminate the need for a precise hair mask calculation,
-              saving approximately 10ms in inference time and enabling the use of hair coloring on video sequences.
+          We were continually working to improve the quality and latency of the model,
+          and have even created a novel approach to eliminate the need for a precise hair mask calculation,
+          saving approximately 10ms in inference time and enabling the use of hair coloring on video sequences.
 
-              ![](images/haircolor/image1.jpg)
+          ![](images/haircolor/image1.jpg)
 
-              ![](images/haircolor/image2.jpg)
+          ![](images/haircolor/image2.jpg)
 
-              ![](images/haircolor/271.jpg)
+          ![](images/haircolor/271.jpg)
 
-          - title: Hair Transfer
-            layout: left
-            border: weak
-            description: |
 
-              In addition to my work on the hair coloring tool for Picsart,
-              I also contributed to the development of an algorithm for photo-realistic hair transfer.
-              As a supervisor on this project, I oversaw the implementation of key steps such as facial keypoint detection,
-              face alignment, facial segmentation, hair alpha mask calculation, statistical coloring, and inpainting.
+          #### Hair Transfer
 
-          - title: Video Enhancement
-            layout: left
-            border: weak
-            description: |
+          In addition to my work on the hair coloring tool for Picsart,
+          I also contributed to the development of an algorithm for photo-realistic hair transfer.
+          As a supervisor on this project, I oversaw the implementation of key steps such as facial keypoint detection,
+          face alignment, facial segmentation, hair alpha mask calculation, statistical coloring, and inpainting.
 
-              As part of PicsArt's transition to a video platform, I worked on the Video Auto Adjustment/Enhancement task.
-              Our goal was to create a small but capable model that could automatically adjust brightness,
-              contrast, sharpness, and other parameters in any given video to improve its overall quality.
-              To achieve this, we developed a fully-convolutional model that performed regression on LAB video frames to adjust various parameters.
 
-              #### Examples (clickable):
+          #### Video Enhancement
 
-              [![Here should be a video link](images/preview_1.png)](https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2/view?usp=sharing)
+          As part of PicsArt's transition to a video platform, I worked on the Video Auto Adjustment/Enhancement task.
+          Our goal was to create a small but capable model that could automatically adjust brightness,
+          contrast, sharpness, and other parameters in any given video to improve its overall quality.
+          To achieve this, we developed a fully-convolutional model that performed regression on LAB video frames to adjust various parameters.
 
-              [![Here should be a video link](images/preview_2.png)](https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1/view?usp=sharing)
+          #### Examples (clickable):
+
+          [![Here should be a video link](images/preview_1.png)](https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2/view?usp=sharing)
+
+          [![Here should be a video link](images/preview_2.png)](https://drive.google.com/file/d/10YETE0DiamgfpYHcsfetI6JbxNBMz0Z1/view?usp=sharing)
 
       - title: CERN
-        layout: list
+        layout: left
         caption: August 2019 - August 2020
         link: https://cs.hse.ru/en/lambda/
-        sub_title: Deep Learning Researcher
-        content:
-          - title: Ring Imaging Cherenkov detector
-            layout: left
-            border: weak
-            description: | # this will include new lines to allow paragraphs
-              The [Ring Imaging Cherenkov (RICH) detector](https://lhcb-public.web.cern.ch/en/detector/RICH-en.html)
-              detector is a key component of the Large Hadron Collider beauty experiment.
-              Its purpose is to identify the type of particle being passed through it by calculating the probability of a particle being a particular type.
-              However, setting up a model for this purpose requires a large amount of data.
+        sub_title: Geneva, Switzerland & Moscow, Russia
+        border: weak
+        description: | # this will include new lines to allow paragraphs
+          #### Ring Imaging Cherenkov detector
 
-              To address this challenge, our team developed a [Cramer GAN](https://arxiv.org/abs/1705.10743),
-              which is able to generate a large amount of data to simulate specific LHCb experiments.
-              This allowed us to simulate data at a much faster rate (around 10,000 events per second) compared
-              to previous methods such as Monte-Carlo simulation (2-5 events per second),
-              which were previously used by physicists.
-              The use of the Cramer GAN allowed physicists to efficiently generate data for modeling particle probabilities for multiple LHCb experiments.
+          The [Ring Imaging Cherenkov (RICH) detector](https://lhcb-public.web.cern.ch/en/detector/RICH-en.html)
+          detector is a key component of the Large Hadron Collider beauty experiment.
+          Its purpose is to identify the type of particle being passed through it by calculating the probability of a particle being a particular type.
+          However, setting up a model for this purpose requires a large amount of data.
 
-          - title: Deep Underground Neutrino Experiment (Geneva)
-            layout: left
-            border: weak
-            description: |
-              This project was a collaboration with FermiLab, with the goal of studying neutrino interactions with matter.
-              My role in the project was to build a stable pre-processing pipeline for sparse data and to develop low-latency models for online event filtering.
+          To address this challenge, our team developed a [Cramer GAN](https://arxiv.org/abs/1705.10743),
+          which is able to generate a large amount of data to simulate specific LHCb experiments.
+          This allowed us to simulate data at a much faster rate (around 10,000 events per second) compared
+          to previous methods such as Monte-Carlo simulation (2-5 events per second),
+          which were previously used by physicists.
+          The use of the Cramer GAN allowed physicists to efficiently generate data for modeling particle probabilities for multiple LHCb experiments.
 
-              I contributed to the project by developing a graph neural network that denoises and sparsifies events as part of the engineering pipeline.
-              To my knowledge, this solution is still being used in current DUNE experiments.
-              A presentation at [CHEP 2019](https://indico.cern.ch/event/773049/contributions/3474765/)
-              (https://indico.cern.ch/event/773049/contributions/3474765/attachments/1937737/3211868/GraphNNDune.pdf) provides a summary of the project.
+          #### Deep Underground Neutrino Experiment
+
+          This project was a collaboration with FermiLab, with the goal of studying neutrino interactions with matter.
+          My role in the project was to build a stable pre-processing pipeline for sparse data and to develop low-latency models for online event filtering.
+
+          I contributed to the project by developing a graph neural network that denoises and sparsifies events as part of the engineering pipeline.
+          To my knowledge, this solution is still being used in current DUNE experiments.
+          A presentation at [CHEP 2019](https://indico.cern.ch/event/773049/contributions/3474765/)
+          (https://indico.cern.ch/event/773049/contributions/3474765/attachments/1937737/3211868/GraphNNDune.pdf) provides a summary of the project.
 
   - title: Additional Experience
     layout: list 
@@ -193,7 +177,6 @@ content:
       - layout: left
         title: Higher School of Economics
         link: https://www.hse.ru/en/edu/courses/339563270
-        sub_title: Teacher
         caption: September 2018 - Present
         description: |
 
@@ -206,7 +189,6 @@ content:
       - layout: left
         title: Yandex
         link: https://en.wikipedia.org/wiki/Yandex_Zen
-        sub_title: Intern
         description: |
           During my student years, I interned at Yandex, where I worked on various NLP models designed to solve deduplication tasks for three months.
           While much of my work there focused on text embeddings such as word2vec, fasttext, and doc2vec,
@@ -216,9 +198,9 @@ content:
     layout: list
     content:
       - layout: left
-        title: Higher School of Economics (Moscow)
+        title: Higher School of Economics
         caption: 2015-2019
-        sub_title: BSc Computer Science
+        sub_title: Moscow, Russia
         quote: >
           Even though it is called a "Higher School of Economics", the faculty I studied in is considered one of the top computer science programs
           in Russia with a focus on applied machine learning.
@@ -234,7 +216,7 @@ content:
 
           My bachelor's thesis focused on using GANs for the [fast simulation of particle interactions](https://arxiv.org/abs/1905.11825) for CERN's LHCb experiment
 
-  - title: Papers 
+  - title: Academic Experience
     layout: list
     content:
       - layout: left
@@ -253,18 +235,12 @@ content:
           While working at PicsArt, my team and I prepared a number of papers and drafts that are covered
           by nondisclosure agreements (NDAs) and are currently in the process of being patented. These include:
 
-          * Knowledge Distillation of Normalizing Flows
-
-          In this paper, we explore conventional knowledge distillation methods applied to Normalizing Flows.
+          * Knowledge Distillation of Normalizing Flows: In this paper, we explore conventional knowledge distillation methods applied to Normalizing Flows.
           We propose a novel NF-specific KD solution that improves student flow quality by more than 30% compared to conventional methods.
 
-          * Deep Normalizing Flows
+          * Deep Normalizing Flows: As the name suggests, this paper investigates how deep we can go with Normalizing Flows while effectively increasing metrics.
 
-          As the name suggests, this paper investigates how deep we can go with Normalizing Flows while effectively increasing metrics.
-
-          * Very Tiny StarGan v2
-
-          During the hair recoloring project, we developed a method for distilling an image-to-image GAN that allows
+          * Very Tiny StarGan v2: During the hair recoloring project, we developed a method for distilling an image-to-image GAN that allows
           for a stable and fast distillation process for the state-of-the-art image translation GAN, StarGAN v2.
 
 # Footer
