@@ -69,9 +69,9 @@ content:
           This approach not only improved overall metric quality by approximately 10%,
           but also reduced the time it took for iPhones to overheat by 4 minutes.
 
-          Solarized dark             |  Solarized Ocean          |  Solarized Ocean
+                       |            |  
           :-------------------------:|:-------------------------:|:-------------------------:
-          ![](images/zero10/image1.jpg)   | ![](images/zero10/image3.jpg) | ![](images/zero10/image3.jpg)
+          ![](images/zero10/image1.jpg)   | ![](images/zero10/image2.jpg) | ![](images/zero10/image3.jpg)
 
 
           Currently, I am exploring new approaches to generative fashion design,
@@ -120,7 +120,7 @@ content:
 
           ![](images/haircolor/271.jpg)
 
-
+          \
           #### Hair Transfer
 
           In addition to my work on the hair coloring tool for Picsart,
@@ -128,15 +128,13 @@ content:
           As a supervisor on this project, I oversaw the implementation of key steps such as facial keypoint detection,
           face alignment, facial segmentation, hair alpha mask calculation, statistical coloring, and inpainting.
 
-
+          \
           #### Video Enhancement
 
           As part of PicsArt's transition to a video platform, I worked on the Video Auto Adjustment/Enhancement task.
           Our goal was to create a small but capable model that could automatically adjust brightness,
           contrast, sharpness, and other parameters in any given video to improve its overall quality.
           To achieve this, we developed a fully-convolutional model that performed regression on LAB video frames to adjust various parameters.
-
-          #### Examples (clickable):
 
           [![Here should be a video link](images/preview_1.png)](https://drive.google.com/file/d/1wNRTdq3FlVdrcy9_UaYAqaJdjcS0Zcj2/view?usp=sharing)
 
@@ -163,6 +161,7 @@ content:
           which were previously used by physicists.
           The use of the Cramer GAN allowed physicists to efficiently generate data for modeling particle probabilities for multiple LHCb experiments.
 
+          \
           #### Deep Underground Neutrino Experiment
 
           This project was a collaboration with FermiLab, with the goal of studying neutrino interactions with matter.
@@ -170,22 +169,21 @@ content:
 
           I contributed to the project by developing a graph neural network that denoises and sparsifies events as part of the engineering pipeline.
           To my knowledge, this solution is still being used in current DUNE experiments.
-          A presentation at [CHEP 2019](https://indico.cern.ch/event/773049/contributions/3474765/)
-          (https://indico.cern.ch/event/773049/contributions/3474765/attachments/1937737/3211868/GraphNNDune.pdf) provides a summary of the project.
+          A submission at [CHEP 2019](https://indico.cern.ch/event/773049/contributions/3474765/) provides a summary of the project.
 
   - title: Additional Experience
     layout: list 
     content:
       - layout: left
         title: Higher School of Economics
-        link: https://www.hse.ru/en/edu/courses/339563270
+        link: https://www.hse.ru/en/
         caption: September 2018 - Present
         description: |
 
           I began teaching during my second year at university, initially offering private counseling sessions.
           I then became a teacher's assistant for various deep learning-related courses.
 
-          After graduating, I worked with my supervisor at Lambda laboratory to create a semester-long course called "Generative Models",
+          After graduating, I worked with my supervisor at Lambda laboratory to create a [semester-long course called "Generative Models"](https://www.hse.ru/en/edu/courses/339563270),
           which covers a range of state-of-the-art generative models, including GANs, VAEs, and Normalizing Flows.
 
       - layout: left
@@ -221,7 +219,7 @@ content:
   - title: Academic Experience
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         description: |
           My work with Lambda laboratory has resulted in a number of papers and talks:
 
