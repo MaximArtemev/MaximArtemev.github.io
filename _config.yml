@@ -34,8 +34,10 @@ about_content: | # this will include new lines to allow paragraphs
   where I focused on **generative models** and their application to high-energy physics.
   Specifically, I was in a collaboration with the [Large Hadron Collider beauty experiment](https://home.cern/science/experiments/lhcb)
   on fast particle simulation using **GANs**.
+
   I then worked as a CV engineer at [PicsArt](https://picsart.com/en),
   where I worked on **image-to-image** hair recoloring GANs and published papers on **Normalizing Flows** and **GANs**.
+
   Before joining Zero10, I was at [ByteDance Singapore](https://www.bytedance.com/en/),
   where I developed **video-level embeddings** for video comparison and made improvements to deduplication filters.
 
